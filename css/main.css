@@ -1,0 +1,23 @@
+/* importing the component library */
+@import url("https://shoreui.netlify.app/css/base.css");
+
+/* importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Lora:ital,wght@0,500;1,400&family=Palanquin+Dark:wght@500;700&display=swap");
+
+:root {
+  /* colors */
+  --color-primary: #5c1466;
+  --color-secondary: #aa2d59;
+  --bg-bright: #3cefff;
+  --bg-reef: #00f7ff;
+  --bg-dark: #4592af;
+
+  --color-white: #fdfdfd;
+  --color-black: #222222;
+  --color-shadow: #cfd9de;
+  /* font families */
+  /* font-family: "Lora", serif;
+  font-family: "Hind Siliguri", sans-serif;
+  font-family: "Palanquin Dark", sans-serif;
+  */
+}
