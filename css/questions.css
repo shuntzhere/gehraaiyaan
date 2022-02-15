@@ -1,0 +1,42 @@
+.container {
+  background-color: var(--bg-reef);
+  height: 100vh;
+}
+
+.questions-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.questions-data {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.questions-data > p {
+  margin: 0.5rem auto;
+  font-size: 1.1rem;
+}
+
+.question-title {
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 0 auto;
+}
+
+.btn {
+  margin: 1rem auto;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  width: 500px;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--bg-dark);
+  color: var(--color-white);
+  transform: scale(1.05);
+}
