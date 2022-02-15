@@ -35,7 +35,7 @@
   transition: all 0.1s ease-in-out;
 }
 
-.btn:hover {
+.btn .answer-btn:hover {
   background-color: var(--bg-dark);
   color: var(--color-white);
   transform: scale(1.05);
