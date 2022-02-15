@@ -1,0 +1,89 @@
+.rules-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.rules-content {
+  max-width: 100%;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.rules-title,
+.rules-next {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  letter-spacing: 1px;
+  font-family: "Palanquin Dark", sans-serif;
+  font-weight: 700;
+}
+
+.rules-next {
+  margin-top: 2rem;
+  width: 60%;
+  text-align: center;
+}
+
+.murky {
+  font-size: 2.5rem;
+  color: var(--color-shadow);
+  cursor: none;
+}
+
+.murky:hover {
+  color: var(--color-white);
+}
+
+.btn-ready {
+  font-size: 3.5rem;
+}
+
+.btn-ready:hover {
+  cursor: pointer;
+  color: var(--color-secondary);
+}
+
+.rules-list {
+  list-style: none;
+  margin: 3rem 0 2rem 0;
+  padding: 1rem;
+  counter-reset: gradient-counter;
+  box-shadow: 0 5px 60px rgba(0, 0, 0, 0.12), 0 1px 40px rgba(0, 0, 0, 0.24);
+  border-radius: 1%;
+}
+
+.rules-list > li {
+  background: transparent;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  min-height: 3rem;
+  padding: 1rem 1rem 1rem 3rem;
+  position: relative;
+  color: var(--color-white);
+  counter-increment: gradient-counter;
+}
+
+.rules-list > li::before,
+.rules-list > li::after {
+  background-image: linear-gradient(120deg, var(--bg-bright), var(--bg-dark));
+  border-radius: 1rem 0 1rem 1rem;
+  content: "";
+  height: 2rem;
+  left: 0rem;
+  overflow: hidden;
+  position: absolute;
+  top: 1rem;
+  width: 2rem;
+}
+
+.rules-list > li::before {
+  color: var(--color-white);
+  display: flex;
+  font: 700 1.2em/1 "Lora", serif;
+  justify-content: flex-end;
+  padding: 0.125em 0.25em;
+  z-index: 1;
+  content: counter(gradient-counter);
+  position: absolute;
+}

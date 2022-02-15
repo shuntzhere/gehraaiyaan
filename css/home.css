@@ -5,7 +5,7 @@ body {
     var(--bg-reef) 20%,
     var(--bg-dark)
   );
-  color: var(--color-primary);
+  color: var(--color-black);
 }
 
 .quiz-container {
@@ -46,7 +46,7 @@ body {
 }
 
 span {
-  color: var(--color-primary);
+  color: var(--color-white);
   letter-spacing: 0px;
   font-size: 2rem;
   transition: all 0.1s ease-in;
@@ -54,7 +54,6 @@ span {
 
 span:hover {
   transform: scale(1.1);
-  color: var(--color-white);
 }
 
 .nav-logo {
