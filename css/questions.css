@@ -27,7 +27,7 @@
   padding: 0 auto;
 }
 
-.btn {
+.btn.answer-btn {
   margin: 1rem auto;
   background-color: var(--color-white);
   color: var(--color-black);
@@ -35,7 +35,7 @@
   transition: all 0.1s ease-in-out;
 }
 
-.btn .answer-btn:hover {
+.btn.answer-btn:hover {
   background-color: var(--bg-dark);
   color: var(--color-white);
   transform: scale(1.05);
