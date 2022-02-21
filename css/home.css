@@ -5,7 +5,7 @@ body {
     var(--bg-reef) 20%,
     var(--bg-dark)
   );
-  color: var(--color-black);
+  color: var(--color-primary);
 }
 
 .quiz-container {
@@ -45,7 +45,7 @@ body {
 }
 
 span {
-  color: var(--color-white);
+  color: var(--color-primary);
   letter-spacing: 0px;
   font-size: 2rem;
   transition: all 0.1s ease-in;
@@ -53,6 +53,7 @@ span {
 
 span:hover {
   transform: scale(1.1);
+  color: var(--color-white);
 }
 
 .nav-logo {
@@ -60,6 +61,9 @@ span:hover {
   font-family: "Palanquin Dark", sans-serif;
   font-weight: 700;
   font-size: 1.2rem;
+}
+
+.nav-logo > a {
   color: var(--color-black);
 }
 
