@@ -1,6 +1,7 @@
 .container {
   background-color: var(--bg-reef);
   height: 100vh;
+  background-color: var(--bg-dark);
 }
 
 .questions-container {
