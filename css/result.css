@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+}
+
+h2 {
+  margin: 1rem auto;
+}
+
+.btn {
+  margin: 2rem auto;
+}
+
+.answer-correct {
+  background-color: var(--color-success);
+  color: var(--color-white);
+}
+
+.answer-incorrect {
+  background-color: var(--color-danger);
+  color: var(--color-white);
+}
